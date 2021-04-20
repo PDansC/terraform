@@ -17,3 +17,8 @@ variable "admin_Password" {
     type = string
     description = "Admin password used to access the machine"
 }
+
+variable "privateSubnetId" {
+    type = string
+    description = "Id of private subnet"
+}

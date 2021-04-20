@@ -83,4 +83,5 @@ module "Postgresql" {
   location                      = azurerm_resource_group.rg.location
   admin_Password                = var.admin_Password
   admin_Username                = var.admin_Username
+  privateSubnetId               = module.Network.privateSubnetId
   }
